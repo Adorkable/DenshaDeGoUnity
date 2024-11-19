@@ -1,0 +1,376 @@
+{
+    "name": "Input Actions",
+    "maps": [
+        {
+            "name": "Example",
+            "id": "d3d5fa4a-c921-4de1-8941-7996467f714d",
+            "actions": [
+                {
+                    "name": "Power",
+                    "type": "Value",
+                    "id": "6d493de0-ed27-4bbe-81cf-68a87669ace9",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Up",
+                    "type": "Button",
+                    "id": "8c0ab7eb-7345-454f-91ff-bbf8d79b1858",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Down",
+                    "type": "Button",
+                    "id": "6dfd7cfc-dfa6-43d1-a770-99e1fa0fc631",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Left",
+                    "type": "Button",
+                    "id": "4e86448a-6d3c-43bd-8bdf-ad2ca5af7c57",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Right",
+                    "type": "Button",
+                    "id": "c8e1bfbc-7d44-4df8-a540-e5384b0721d3",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Select",
+                    "type": "Button",
+                    "id": "ca319931-500e-4406-b07a-693c4c15076c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Start",
+                    "type": "Button",
+                    "id": "c1a2349e-a04e-41b8-8f17-569de45f37d6",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "A",
+                    "type": "Button",
+                    "id": "d6057382-e8d5-48da-bcdc-342007569e4c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "B",
+                    "type": "Button",
+                    "id": "49974058-1b94-485f-abad-fb699e6d32be",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "C",
+                    "type": "Button",
+                    "id": "c544cc83-4f3a-4a49-b2d0-3fbdc81c6bae",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "D",
+                    "type": "Button",
+                    "id": "4d46a690-af53-429a-bcbf-77021b07771a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Brake",
+                    "type": "Value",
+                    "id": "3bcfb94f-2a92-43dc-8b29-206bdc766363",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "6476a21d-f390-46e0-a800-1a55cac6176c",
+                    "path": "<電車でGO新幹線 Controller>/powerLever",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "電車でGO新幹線 Example",
+                    "action": "Power",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7c754e17-a276-4422-afa0-7803dd55c0e1",
+                    "path": "<電車でGO新幹線 Controller>/leftShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Compare",
+                    "action": "Power",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1d558415-e3b0-4718-8c20-f6fa3c327a11",
+                    "path": "<Gamepad>/dpad/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "電車でGO新幹線 Example",
+                    "action": "Up",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "94380115-74c8-4868-aff5-11784e0f12d8",
+                    "path": "<XInputController>/dpad/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Compare",
+                    "action": "Up",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a016b53f-c95a-4d98-b1b3-bf9b8ce6bb6f",
+                    "path": "<Gamepad>/dpad/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "電車でGO新幹線 Example",
+                    "action": "Down",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7ffdd5af-a509-4f6b-bc53-287337dbf076",
+                    "path": "<Gamepad>/dpad/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "電車でGO新幹線 Example",
+                    "action": "Left",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "43a3b030-a087-44d1-9f6f-faeab6b58745",
+                    "path": "<電車でGO新幹線 Controller>/dpad/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "電車でGO新幹線 Example",
+                    "action": "Right",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "22417bc3-e3af-4740-a9f7-630285457b05",
+                    "path": "<XInputController>/dpad/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Compare",
+                    "action": "Right",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c1e267a3-9619-4e5b-a8c8-fdd2a56e0e31",
+                    "path": "<Gamepad>/select",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "電車でGO新幹線 Example",
+                    "action": "Select",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9dc70508-ad39-44fa-a282-39ac5838b766",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Compare",
+                    "action": "Select",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b6905847-228b-4451-b1a0-a57e0899dafb",
+                    "path": "<電車でGO新幹線 Controller>/start",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "電車でGO新幹線 Example",
+                    "action": "Start",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "893722f1-5ba8-4871-be9e-5f8288aa2fec",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Compare",
+                    "action": "Start",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a681b6fa-020b-4fe4-991c-6f0e29551a55",
+                    "path": "<電車でGO新幹線 Controller>/buttonWest",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "電車でGO新幹線 Example",
+                    "action": "A",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a6c2dcd3-e1c6-4695-9be7-8b779fd4a7d0",
+                    "path": "<XInputController>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Compare",
+                    "action": "A",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "46499cb9-eb1e-4359-b968-7d18ee98d876",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "電車でGO新幹線 Example",
+                    "action": "B",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "34626505-4f64-4634-8e66-b2a7371bde6c",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Compare",
+                    "action": "B",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "744ccdf3-fdfe-4e4a-bec8-72199d0609eb",
+                    "path": "<電車でGO新幹線 Controller>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "電車でGO新幹線 Example",
+                    "action": "C",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "aa74a139-f9a0-4560-b5d6-749eeac104b7",
+                    "path": "<XInputController>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Compare",
+                    "action": "C",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e88a0ef2-a078-4ee9-8592-78845c688fe2",
+                    "path": "<電車でGO新幹線 Controller>/buttonNorth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "電車でGO新幹線 Example",
+                    "action": "D",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6cc9c7a0-8f0c-4881-b3da-0bad2973ca76",
+                    "path": "<XInputController>/buttonNorth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Compare",
+                    "action": "D",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d49a9108-4b93-4eaf-a218-2aa2fe4ead0e",
+                    "path": "<電車でGO新幹線 Controller>/brakeLever",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "電車でGO新幹線 Example",
+                    "action": "Brake",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "電車でGO新幹線 Example",
+            "bindingGroup": "電車でGO新幹線 Example",
+            "devices": [
+                {
+                    "devicePath": "<電車でGO新幹線 Controller>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        },
+        {
+            "name": "Compare",
+            "bindingGroup": "Compare",
+            "devices": [
+                {
+                    "devicePath": "<XInputController>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
